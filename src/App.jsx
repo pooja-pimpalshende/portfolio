@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header/Header";
 import { Element } from "react-scroll";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -8,9 +9,9 @@ function App() {
       <Header />
       <Element
         name="home"
-        className="h-screen flex items-center justify-center"
+        // className="h-screen flex items-center justify-center"
       >
-        <h2>Welcome Home</h2>
+        <Home />
       </Element>
       <Element name="about" className="h-screen">
         <h2>Welcome about</h2>
