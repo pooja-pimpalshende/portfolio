@@ -1,0 +1,12 @@
+.header {
+  cursor: pointer;
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.link {
+  margin-right: 3rem;
+}
