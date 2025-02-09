@@ -1,20 +1,21 @@
 import styles from "./Home.module.css";
-import profile from "../assets/profile.png";
+import profile from "../assets/pooja.jpeg";
 
 const Home = () => {
   return (
     <div className={styles.homeContainer}>
-      <span>
-        <h2>Crafting Innovative Solution in Software Development</h2>
-        <p>
-          Passionate Software Engineer with over 2 years of experience in
-          building scalable, user-friendly web applications. Skilled in
-          full-stack development with expertise in React and Java. Adept at
-          problem-solving and delivering high-quality software solutions.
-          Enthusiastic about renewable energy and leveraging technology to drive
-          positive change.
-        </p>
-      </span>
+      <div>
+        <span>
+          <h2>Crafting Innovative Solution In Software Development</h2>
+          <p>
+            I am a passionate Frontend Developer with a knack for creating
+            seamless user experiences. My expertise spans across modern
+            technologies like React.
+          </p>
+        </span>
+        <button className={styles.btnGrad}>Download</button>
+      </div>
+
       <img src={profile} alt="profile" />
     </div>
   );

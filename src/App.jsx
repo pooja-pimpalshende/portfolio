@@ -2,19 +2,17 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import { Element } from "react-scroll";
 import Home from "./components/Home";
+import About from "./components/About";
 
 function App() {
   return (
     <>
       <Header />
-      <Element
-        name="home"
-        // className="h-screen flex items-center justify-center"
-      >
+      <Element name="home">
         <Home />
       </Element>
-      <Element name="about" className="h-screen">
-        <h2>Welcome about</h2>
+      <Element name="about">
+        <About />
       </Element>
       <Element name="experience">
         <h2>My Experience</h2>
