@@ -3,6 +3,8 @@ import Header from "./components/Header/Header";
 import { Element } from "react-scroll";
 import Home from "./components/Home";
 import About from "./components/About";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -15,10 +17,10 @@ function App() {
         <About />
       </Element>
       <Element name="experience">
-        <h2>My Experience</h2>
+        <Experience />
       </Element>
       <Element name="contact">
-        <h2>Get in touch</h2>
+        <Contact />
       </Element>
     </>
   );

@@ -1,0 +1,17 @@
+.experienceContainer {
+  display: flex;
+}
+
+.experience span {
+  width: 60%;
+}
+
+.experience h2 {
+  font-size: 3rem;
+  margin: 5rem;
+}
+
+.experience p {
+  margin: 5rem 5rem 2rem;
+  width: 75%;
+}

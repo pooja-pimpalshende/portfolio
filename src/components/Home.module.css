@@ -26,13 +26,12 @@
     #f09819 51%,
     #ff512f 100%
   );
-}
-.btnGrad {
+
   margin: 1rem 5rem;
   padding: 1rem;
   text-align: center;
   transition: 0.5s;
-  background-size: 100% auto;
+  background-size: 200% auto;
   color: white;
   border-radius: 5px;
   display: block;
