@@ -1,4 +1,7 @@
 .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   cursor: pointer;
   margin: 2rem;
   padding: 2rem;
@@ -9,4 +12,8 @@
 
 .link {
   margin-right: 3rem;
+}
+
+.link:hover {
+  color: #ed8a26;
 }

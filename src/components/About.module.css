@@ -1,7 +1,7 @@
 .aboutContainer {
   display: flex;
   flex-direction: column;
-  margin: 3rem 25rem;
+  margin: 10rem 25rem;
   padding: 5rem;
 }
 
