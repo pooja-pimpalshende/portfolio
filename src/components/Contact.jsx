@@ -2,12 +2,19 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import styles from "./Contact.module.css";
 import { FaRegEnvelope } from "react-icons/fa6";
 import { CiPhone } from "react-icons/ci";
+import "react-toastify/dist/ReactToastify.css";
+import { useState } from "react";
 
 const Contact = () => {
+  const [tooltipVisible, setTooltipVisible] = useState(false);
+
   const copyToClipboard = (text) => {
     navigator.clipboard.writeText(text).then(
-      () => alert("Phone number copied to clipboard"),
-      (err) => console.error("could not copy text: ", err)
+      () => {
+        setTooltipVisible(true);
+        setTimeout(() => setTooltipVisible(false), 1000);
+      },
+      (err) => console.error("Could not copy text: ", err)
     );
   };
 
@@ -24,7 +31,6 @@ const Contact = () => {
         <div className={styles.contactIcon}>
           <a href="mailto:pooja.pimpalshende215@gmail.com">
             <FaRegEnvelope size={40} />
-            <h3>pooja.pimpalshende215@gmail.com</h3>
           </a>
         </div>
 
@@ -33,7 +39,7 @@ const Contact = () => {
           onClick={() => copyToClipboard("+47 41249551")}
         >
           <CiPhone size={40} />
-          <h3>+47 41249551</h3>
+          {tooltipVisible && <span className={styles.tooltip}>Copied!</span>}
         </div>
 
         <div className={styles.contactIcon}>
@@ -43,7 +49,6 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <FaLinkedin size={40} />
-            <h3>linkedin.com/in/poojapimpalshende</h3>
           </a>
         </div>
 
@@ -54,7 +59,6 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <FaGithub size={40} />
-            <h3>github.com/pooja-pimpalshende</h3>
           </a>
         </div>
       </div>

@@ -4,6 +4,7 @@
   align-items: center;
   padding: 1rem;
   margin: 15rem 0 1rem 0;
+  background-color: #ea8b2b;
 }
 
 .contactContainer h2 {
@@ -13,15 +14,17 @@
 
 .contactIcons {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 10rem;
-  margin-top: 10rem;
+  margin: 4rem;
 }
 
 .contactIcon {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
 }
 
 .contactContainer h3 {
@@ -31,7 +34,7 @@
 }
 
 .contactContainer p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0 2.5rem;
   text-align: center;
 }
@@ -39,4 +42,16 @@
 .copyright {
   margin-top: 2rem;
   text-align: center;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 50px;
+  background-color: #f5b54f;
+  color: #0f0e0e;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  opacity: 0.8;
 }
