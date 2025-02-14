@@ -3,11 +3,13 @@
   top: 0;
   width: 100%;
   cursor: pointer;
-  margin: 2rem;
+  /* margin: 2rem; */
   padding: 2rem;
   display: flex;
   justify-content: center;
   font-size: x-large;
+  z-index: 100;
+  backdrop-filter: blur(1rem);
 }
 
 .link {

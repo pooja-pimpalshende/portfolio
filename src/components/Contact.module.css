@@ -4,22 +4,17 @@
   align-items: center;
   padding: 2rem;
   margin: 15rem 0 0 0;
-  background: linear-gradient(to bottom, #eda270, #e07033);
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contactContainer h2 {
   font-size: 2.5rem;
   margin: 5rem 3rem;
-  color: #090909;
 }
 
 .contactContainer p {
   font-size: 1.2rem;
   margin: 0 2.5rem;
   text-align: center;
-  color: #050505;
 }
 
 .contactIcons {
@@ -43,13 +38,8 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.contactIcon a {
-  color: #0a0a09;
-  text-decoration: none;
-}
-
 .contactIcon a:hover {
-  color: #b74702;
+  color: #ed8a26;
 }
 
 .contactIcon svg {
@@ -60,5 +50,4 @@
 .contactContainer .copyright {
   margin-top: 2rem;
   text-align: center;
-  color: #141414;
 }

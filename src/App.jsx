@@ -16,7 +16,7 @@ function App() {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
-      offset: -155,
+      offset: -200,
     });
   }, []);
   return (

@@ -23,7 +23,12 @@ const Home = () => {
         </button>
       </div>
 
-      <img src={profile} alt="profile" />
+      <img
+        src={profile}
+        alt="profile"
+        onContextMenu={(e) => e.preventDefault()}
+        draggable={false}
+      />
     </div>
   );
 };

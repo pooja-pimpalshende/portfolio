@@ -4,3 +4,12 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #111111;
 }
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+h2 {
+  line-height: 3.5rem;
+}
