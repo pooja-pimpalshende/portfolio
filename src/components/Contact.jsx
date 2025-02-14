@@ -1,23 +1,8 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import styles from "./Contact.module.css";
 import { FaRegEnvelope } from "react-icons/fa6";
-import { CiPhone } from "react-icons/ci";
-import "react-toastify/dist/ReactToastify.css";
-import { useState } from "react";
 
 const Contact = () => {
-  const [tooltipVisible, setTooltipVisible] = useState(false);
-
-  const copyToClipboard = (text) => {
-    navigator.clipboard.writeText(text).then(
-      () => {
-        setTooltipVisible(true);
-        setTimeout(() => setTooltipVisible(false), 1000);
-      },
-      (err) => console.error("Could not copy text: ", err)
-    );
-  };
-
   return (
     <div className={styles.contactContainer}>
       <h2>Get In Touch</h2>
@@ -32,14 +17,6 @@ const Contact = () => {
           <a href="mailto:pooja.pimpalshende215@gmail.com">
             <FaRegEnvelope size={40} />
           </a>
-        </div>
-
-        <div
-          className={styles.contactIcon}
-          onClick={() => copyToClipboard("+47 41249551")}
-        >
-          <CiPhone size={40} />
-          {tooltipVisible && <span className={styles.tooltip}>Copied!</span>}
         </div>
 
         <div className={styles.contactIcon}>
