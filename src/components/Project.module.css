@@ -2,6 +2,12 @@
   padding: 6.4rem 0;
 }
 
+.cardHeading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 .card {
   padding: 2.4rem;
   box-shadow: 0 1.3rem 4.8rem rgba(0, 0, 0, 0.075);
@@ -12,7 +18,7 @@
 }
 
 .grid {
-  padding: 6.4rem;
+  padding: 0 6.4rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 4.8rem;
@@ -35,5 +41,31 @@
 }
 
 .description {
-  padding: 2.4rem 0;
+  margin: 0;
+  padding: 1.8rem 0 1.2rem 0;
+}
+
+.techStackIcons {
+  display: flex;
+  gap: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.techIcon {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.techIcon svg {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.gitIcon:hover {
+  transform: scale(1.52);
 }
