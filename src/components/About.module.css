@@ -1,8 +1,8 @@
 .aboutContainer {
   display: flex;
   flex-direction: column;
-  margin: 10rem 25rem;
-  padding: 5rem;
+  margin: 0 25rem;
+  padding: 0 5rem;
 }
 
 .aboutContainer h2 {
