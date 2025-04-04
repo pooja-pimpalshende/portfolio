@@ -1,11 +1,12 @@
 import "./App.css";
+import { useEffect, useState } from "react";
 import { Element, scroller } from "react-scroll";
 import Home from "./components/Home";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Header from "./components/Header/Header";
-import { useEffect, useState } from "react";
+import Project from "./components/Project";
 
 function App() {
   // eslint-disable-next-line no-unused-vars
@@ -32,6 +33,9 @@ function App() {
       </Element>
       <Element name="experience">
         <Experience />
+      </Element>
+      <Element name="project">
+        <Project />
       </Element>
       <Element name="contact">
         <Contact />

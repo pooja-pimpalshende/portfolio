@@ -14,6 +14,9 @@ const Header = () => {
       <Link className={styles.link} to="experience" smooth={true} offset={-160}>
         Experience
       </Link>
+      <Link className={styles.link} to="project" smooth={true} offset={-160}>
+        Project
+      </Link>
       <Link className={styles.link} to="contact" smooth={true}>
         Contact
       </Link>
