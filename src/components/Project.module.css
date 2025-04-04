@@ -1,0 +1,39 @@
+.styles.projects {
+  padding: 6.4rem 0;
+}
+
+.card {
+  padding: 2.4rem;
+  box-shadow: 0 1.3rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+
+.card:hover {
+  box-shadow: 0 3.2rem 4.8rem rgba(0, 0, 0, 0.06);
+}
+
+.grid {
+  padding: 6.4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.8rem;
+}
+
+.heading {
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-bottom: 1.6rem;
+}
+
+.img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.img:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.description {
+  padding: 2.4rem 0;
+}
