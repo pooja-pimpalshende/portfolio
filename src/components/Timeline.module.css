@@ -24,21 +24,39 @@
   margin-left: 2rem;
 }
 
-h2 {
-  margin: 0.5rem 0;
+.timelineHeadingSecondary {
+  margin: 0.5rem 0 0.2rem 0;
   font-size: 1.4rem;
 }
 
-h3 {
-  margin: 0;
+.timelineHeadingTertiary {
   font-size: 1.2rem;
 }
 
-h4 {
+.timelineHeading4 {
   margin: 0.5rem 0;
   font-size: 1rem;
 }
 
-p {
+.reponsibilities {
   margin: 0.5rem 2rem 0.5rem 0rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 75em) {
+  .reponsibilities {
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 34em) {
+  .content {
+    width: 130%;
+  }
+  .timelineHeadingTertiary {
+    font-size: 1.2rem;
+  }
+  .reponsibilities {
+    font-size: 1.2rem;
+  }
 }

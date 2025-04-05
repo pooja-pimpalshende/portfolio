@@ -41,7 +41,6 @@
 }
 
 .description {
-  margin: 0;
   padding: 1.8rem 0 1.2rem 0;
 }
 
@@ -68,4 +67,22 @@
 
 .gitIcon:hover {
   transform: scale(1.52);
+}
+
+@media (max-width: 75em) {
+  .heading {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 59em) {
+  .styles.projects {
+    width: 100%;
+    padding: 0;
+  }
+  .grid {
+    padding: 0 3.2rem;
+    gap: 1.8rem;
+  }
 }

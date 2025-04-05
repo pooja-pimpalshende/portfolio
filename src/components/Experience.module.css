@@ -2,7 +2,6 @@
   display: flex;
   margin: 5rem 5rem;
   padding: 0 5rem;
-  margin-top: 8rem;
 }
 
 .experience span {
@@ -14,7 +13,37 @@
   margin: 5rem;
 }
 
-.experience p {
+.experiencePara {
   margin: 5rem 5rem 2rem;
   width: 75%;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 84em) {
+  .experience h2 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 75em) {
+  .experienceContainer {
+    padding: 0 2rem;
+  }
+
+  .experience h2 {
+    font-size: 1.8rem;
+  }
+  .experiencePara {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .experience h2 {
+    line-height: 1.8rem;
+  }
+  .experienceContainer {
+    width: 100%;
+    margin: 3rem;
+  }
 }

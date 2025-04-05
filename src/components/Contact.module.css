@@ -8,7 +8,7 @@
 }
 
 .contactContainer h2 {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   margin: 5rem 3rem;
 }
 
@@ -51,4 +51,17 @@
 .contactContainer .copyright {
   margin-top: 2rem;
   text-align: center;
+}
+
+@media (max-width: 59em) {
+  .contactContainer {
+    width: 100%;
+    margin: 4.8rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .contactContainer {
+    width: 150%;
+  }
 }
