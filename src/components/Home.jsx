@@ -12,7 +12,7 @@ const Home = () => {
       <div>
         <span>
           <h2>Crafting Innovative Solution In Software Development</h2>
-          <p>
+          <p className={styles.homePara}>
             I am a passionate Frontend Developer with a knack for creating
             seamless user experiences. My expertise spans across modern
             technologies like React.

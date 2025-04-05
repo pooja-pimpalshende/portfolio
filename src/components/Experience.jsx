@@ -7,7 +7,7 @@ const Experience = () => {
     <div className={styles.experienceContainer}>
       <div className={styles.experience}>
         <h2>Professional Journey and Key Milestones</h2>
-        <p>
+        <p className={styles.experiencePara}>
           Explore my career journey, showcasing significant roles and
           accomplishments. Each position reflects my growth and expertise in
           frontend development, complemented by experience in technical support.

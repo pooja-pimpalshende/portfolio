@@ -8,10 +8,12 @@ const Timeline = ({ data }) => {
         <div key={index} className={styles.entry}>
           <div className={styles.dot}></div>
           <div className={styles.content}>
-            <h2>{entry.duration}</h2>
-            <h3>{entry.company}</h3>
-            <h4>{entry.role}</h4>
-            <p>{entry.responsibilities}</p>
+            <h2 className={styles.timelineHeadingSecondary}>
+              {entry.duration}
+            </h2>
+            <h3 className={styles.timelineHeadingTertiary}>{entry.company}</h3>
+            <h4 className={styles.timelineHeading4}>{entry.role}</h4>
+            <p className={styles.reponsibilities}>{entry.responsibilities}</p>
           </div>
         </div>
       ))}
