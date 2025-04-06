@@ -1,7 +1,4 @@
 @import "tailwindcss";
-:root {
-  /* background-color: rgb(255, 245, 245); */
-}
 
 p {
   font-size: 1rem;
