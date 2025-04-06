@@ -1,0 +1,20 @@
+.aurorabg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: radial-gradient(
+      circle at 20% 20%,
+      rgba(0, 255, 255, 0.2),
+      transparent
+    ),
+    radial-gradient(circle at 80% 30%, rgb(216, 167, 239), transparent),
+    radial-gradient(circle at 50% 70%, rgb(255, 245, 245), transparent);
+  background-repeat: no-repeat;
+  background-size: 300% 300%;
+  background-blend-mode: screen;
+  pointer-events: none;
+  transition: background-position 0.2s ease;
+}
