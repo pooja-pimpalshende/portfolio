@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://pooja-pimpalshende.github.io/Portfolio",
+  "homepage": "https://pooja-pimpalshende.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
