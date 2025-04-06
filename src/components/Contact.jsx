@@ -21,7 +21,7 @@ const Contact = () => {
 
         <div className={styles.contactIcon}>
           <a
-            href="https://linkedin.com/in/poojapimpalshende"
+            href="https://www.linkedin.com/in/poojapimpalshende/"
             target="_blank"
             rel="noopener noreferrer"
           >

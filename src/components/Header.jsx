@@ -1,6 +1,5 @@
-/* eslint-disable react/prop-types */
 import { Link } from "react-scroll";
-import styles from "../Header/Header.module.css";
+import styles from "./Header.module.css";
 
 const Header = () => {
   return (

@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
-import Header from "./components/Header/Header";
+import Header from "./components/Header";
 import Project from "./components/Project";
 import AuroraBg from "./components/AuroraBg";
 
