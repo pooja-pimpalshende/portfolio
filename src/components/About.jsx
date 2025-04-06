@@ -24,7 +24,7 @@ const About = () => {
             Beyond coding, I&apos;m always exploring new technologies, refining
             my problem-solving skills, and staying up-to-date with the latest in
             UI/UX trends. When I&apos;m not at my desk, you&apos;ll likely find
-            me cooking, practicing yoga, or meditating.
+            me cooking, eating, practicing yoga, or meditating.
           </p>
         </div>
       </span>

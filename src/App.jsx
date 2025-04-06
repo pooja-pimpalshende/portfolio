@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Header from "./components/Header/Header";
 import Project from "./components/Project";
+import AuroraBg from "./components/AuroraBg";
 
 function App() {
   // eslint-disable-next-line no-unused-vars
@@ -22,6 +23,7 @@ function App() {
   }, []);
   return (
     <>
+      <AuroraBg />
       <Header setActive={setActive} />
 
       <Element name="home">
