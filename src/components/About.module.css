@@ -70,3 +70,12 @@
     font-size: 1.4rem;
   }
 }
+
+@media (max-width: 32em) {
+  .aboutContainer {
+    margin: 0 8rem;
+  }
+  .aboutContainer h2 {
+    margin-left: 5rem;
+  }
+}

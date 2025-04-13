@@ -100,3 +100,24 @@
     margin: 0 5rem;
   }
 }
+
+@media (max-width: 32em) {
+  .homeContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .homeContainer h2 {
+    text-align: center;
+  }
+  .homePara {
+    padding: 0;
+  }
+  .btnCV {
+    display: flex;
+    justify-content: center;
+  }
+  .btnGrad {
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+}

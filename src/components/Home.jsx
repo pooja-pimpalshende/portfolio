@@ -10,17 +10,17 @@ const Home = () => {
   return (
     <div className={styles.homeContainer}>
       <div>
-        <span>
-          <h2>Crafting Innovative Solution In Software Development</h2>
-          <p className={styles.homePara}>
-            I am a passionate Frontend Developer with a knack for creating
-            seamless user experiences. My expertise spans across modern
-            technologies like React.
-          </p>
-        </span>
-        <button className={styles.btnGrad} onClick={handleViewandDownload}>
-          Download CV
-        </button>
+        <h2>Crafting Innovative Solution In Software Development</h2>
+        <p className={styles.homePara}>
+          I am a passionate Frontend Developer with a knack for creating
+          seamless user experiences. My expertise spans across modern
+          technologies like React.
+        </p>
+        <div className={styles.btnCV}>
+          <button className={styles.btnGrad} onClick={handleViewandDownload}>
+            Download CV
+          </button>
+        </div>
       </div>
 
       <img
