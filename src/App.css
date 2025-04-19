@@ -21,3 +21,7 @@
   overflow-y: auto;
   margin: 1rem;
 }
+
+::-webkit-scrollbar {
+  background: transparent;
+}

@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <div className={styles.homeContainer}>
-      <div>
+      <div className={styles.content}>
         <h2>Crafting Innovative Solution In Software Development</h2>
         <p className={styles.homePara}>
           I am a passionate Frontend Developer with a knack for creating
