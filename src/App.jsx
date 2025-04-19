@@ -18,31 +18,32 @@ function App() {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
-      offset: -200,
     });
   }, []);
   return (
-    <>
+    <div className="app">
       <AuroraBg />
       <Header setActive={setActive} />
 
-      <Element name="home">
-        <Home />
-      </Element>
+      <main className="main" id="scrollable-container">
+        <Element name="home">
+          <Home />
+        </Element>
 
-      <Element name="about">
-        <About />
-      </Element>
-      <Element name="experience">
-        <Experience />
-      </Element>
-      <Element name="project">
-        <Project />
-      </Element>
-      <Element name="contact">
-        <Contact />
-      </Element>
-    </>
+        <Element name="about">
+          <About />
+        </Element>
+        <Element name="experience">
+          <Experience />
+        </Element>
+        <Element name="project">
+          <Project />
+        </Element>
+        <Element name="contact">
+          <Contact />
+        </Element>
+      </main>
+    </div>
   );
 }
 

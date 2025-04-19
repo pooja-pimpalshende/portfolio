@@ -9,3 +9,15 @@
 .element {
   height: max-content;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  flex: 1;
+  overflow-y: auto;
+  margin: 1rem;
+}
