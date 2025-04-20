@@ -100,7 +100,7 @@
   }
 
   .homeContainer h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 1;
     text-align: center;
   }
@@ -108,7 +108,7 @@
   .homePara {
     font-size: 1rem;
     line-height: 1.2;
-    padding: 0 4rem;
+    padding: 0;
   }
 
   .content {
@@ -117,6 +117,8 @@
 
   .homeContainer img {
     margin: 0;
+    width: 15rem;
+    height: 15rem;
   }
 
   .btnCV {
@@ -124,6 +126,17 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 32em) {
+  .homeContainer {
+    margin: 0;
+    padding: 0;
+  }
+  .homePara {
+    padding: 0;
+  }
+}
+
 /*
 @media (max-width: 59em) {
   .homeContainer {

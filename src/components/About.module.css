@@ -1,18 +1,18 @@
 .aboutContainer {
   display: flex;
   flex-direction: column;
-  margin: 0 15rem;
-  padding: 0 5rem;
+  margin: 3rem 8rem 5rem 8rem;
 }
 
 .aboutContainer h2 {
   font-size: 3rem;
-  margin: 1rem 3rem;
+  margin-bottom: 3rem;
   text-align: center;
+  padding: 0 15rem;
 }
 
 .aboutSection {
-  margin: 3rem;
+  padding: 0 12rem;
 }
 
 .aboutPara {
@@ -24,10 +24,34 @@
 @media (max-width: 84em) {
   .aboutContainer h2 {
     font-size: 2.4rem;
+    padding: 0;
+  }
+  .aboutSection {
+    padding: 0;
   }
 }
 
 @media (max-width: 75em) {
+  .aboutContainer {
+    margin: 3rem 5rem;
+  }
+  .aboutContainer h2 {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+  .aboutPara {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .aboutContainer {
+    margin: 2rem 1rem;
+  }
+}
+
+/* @media (max-width: 75em) {
   .aboutContainer {
     margin: 0 8rem;
   }
@@ -78,4 +102,4 @@
   .aboutContainer h2 {
     margin-left: 5rem;
   }
-}
+} */
