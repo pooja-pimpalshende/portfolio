@@ -13,7 +13,7 @@
 .dot {
   position: absolute;
   left: -2.5rem;
-  top: 0.5rem;
+  top: 1.2rem;
   width: 1rem;
   height: 1rem;
   background-color: chocolate;
@@ -27,23 +27,57 @@
 .timelineHeadingSecondary {
   margin: 0.5rem 0 0.2rem 0;
   font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .timelineHeadingTertiary {
   font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .timelineHeading4 {
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 0 0;
   font-size: 1rem;
 }
 
 .reponsibilities {
-  margin: 0.5rem 2rem 0.5rem 0rem;
+  margin: 1rem 2rem 0.5rem 0rem;
   font-size: 1rem;
 }
 
+@media (max-width: 84em) {
+  .reponsibilities {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+}
+
 @media (max-width: 75em) {
+  .timeline {
+    padding-left: 0;
+  }
+
+  .dot {
+    left: -0.5rem;
+  }
+
+  .timelineHeadingSecondary {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .reponsibilities {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 32em) {
+  .timeline {
+    margin-left: 1rem;
+  }
+}
+/* @media (max-width: 75em) {
   .reponsibilities {
     line-height: 1.6;
   }
@@ -59,4 +93,4 @@
   .reponsibilities {
     font-size: 1.2rem;
   }
-}
+} */

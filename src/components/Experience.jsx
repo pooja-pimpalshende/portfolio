@@ -1,6 +1,6 @@
 import Timeline from "./Timeline";
 import styles from "./Experience.module.css";
-import { experience } from "../../data/experience";
+import { experience } from "../data/experience";
 
 const Experience = () => {
   return (
