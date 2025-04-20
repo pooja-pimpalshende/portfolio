@@ -45,7 +45,7 @@ const Header = () => {
           containerId="scrollable-container"
           onClick={handleOnClick}
         >
-          Project
+          Projects
         </Link>
         <Link
           className={styles.link}
