@@ -1,18 +1,25 @@
 import styles from "./Project.module.css";
 import proj1 from "../assets/proj1.png";
-import proj2 from "../assets/proj2.png";
+import proj3 from "../assets/proj3.png";
 import { FaCss3, FaGithub, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
 import projectsData from "../data/projects.json";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiReactquery, SiSupabase } from "react-icons/si";
+import { HiOutlineSwitchHorizontal } from "react-icons/hi";
 
 const imageMap = {
   "proj1.png": proj1,
-  "proj2.png": proj2,
+  "proj3.png": proj3,
 };
 
 const iconMap = {
   FaReact: <FaReact />,
   FaHtml5: <FaHtml5 />,
   FaCss3: <FaCss3 />,
+  FaTilwindCss: <RiTailwindCssFill />,
+  SiSupabase: <SiSupabase />,
+  SiReactquery: <SiReactquery />,
+  HiOutlineSwitchHorizontal: <HiOutlineSwitchHorizontal />,
   FaJsSquare: <FaJsSquare />,
 };
 
