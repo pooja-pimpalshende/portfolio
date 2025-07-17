@@ -3,27 +3,25 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <div className={styles.aboutContainer}>
-      <h2>Meet Your Next Software Development Partner</h2>
+      <h2>Get to Know Me</h2>
       <div className={styles.aboutSection}>
         <p className={styles.aboutPara}>
-          I&apos;m a software engineer passionate about building seamless,
-          user-friendly experiences that balance elegant design with strong
-          engineering principles. My work revolves around crafting applications
-          that not only function smoothly but also feel intuitive and engaging
-          for users.
+          I&apos;m a Front End Engineer who enjoys building performant,
+          accessible, and user-focused web applications. Over the past two
+          years, I&apos;ve evolved from building simple interfaces to
+          architecting scalable front-end systems using modern frameworks and
+          tools like React, TypeScript, and Nx.
         </p>
         <p className={styles.aboutPara}>
-          Over the past two years, I&apos;ve grown from developing basic
-          applications to tackling more complex projects that push the
-          boundaries of innovation. I thrive in the space where design meets
-          development, ensuring that every product I work on is both visually
-          polished and technically robust.
+          I thrive at the intersection of design and development—translating
+          UI/UX ideas into responsive, production-ready experiences. I&apos;m
+          especially focused on clean code, reusability, and performance
+          optimization.
         </p>
         <p className={styles.aboutPara}>
-          Beyond coding, I&apos;m always exploring new technologies, refining my
-          problem-solving skills, and staying up-to-date with the latest in
-          UI/UX trends. When I&apos;m not at my desk, you&apos;ll likely find me
-          cooking, eating, practicing yoga, or meditating.
+          When I&apos;m not coding, I&apos;m exploring new frontend
+          technologies, refining my skills, or recharging through yoga, cooking,
+          and meditation.
         </p>
       </div>
     </div>

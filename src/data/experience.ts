@@ -4,7 +4,7 @@ export const experience = [
     company: "Kloudgin",
     role: "Associate Software Engineer",
     responsibilities:
-      "I employed as a Associate Software Engineer at a Kloudgin, concentrating on developing and maintaining scalable web applications with React.js to guarantee optimal performance and responsiveness.",
+      "Worked as an Associate Software Engineer at Kloudgin, focusing on developing and maintaining scalable web applications using React.js. Ensured optimal performance, responsiveness, and user experience across projects.",
   },
   {
     duration: "Oct 2021 - May 2022",

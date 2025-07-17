@@ -10,11 +10,14 @@ const Home = () => {
   return (
     <div className={styles.homeContainer}>
       <div className={styles.content}>
-        <h2>Crafting Innovative Solution In Software Development</h2>
+        <h2>
+          Front End Engineer Passionate About Scalable, Performant Interfaces
+        </h2>
         <p className={styles.homePara}>
-          I am a passionate Frontend Developer with a knack for creating
-          seamless user experiences. My expertise spans across modern
-          technologies like React.
+          Building fast, scalable, and accessible web interfaces is my passion.
+          I focus on writing clean, maintainable code and enjoy transforming
+          complex problems into intuitive user experiences using modern tools
+          like React and TypeScript.
         </p>
         <div className={styles.btnCV}>
           <button className={styles.btnGrad} onClick={handleViewandDownload}>
