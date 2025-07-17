@@ -27,11 +27,14 @@
   font-size: 1.6rem;
   font-weight: 400;
   padding-bottom: 1.6rem;
+  line-height: 2.5rem;
 }
 
 .img {
   width: 100%;
-  overflow: hidden;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .img:hover {
@@ -67,6 +70,18 @@
 
 .gitIcon:hover {
   transform: scale(1.52);
+}
+
+.mediaWrapper {
+  width: 100%;
+  aspect-ratio: 17 / 9;
+  overflow: hidden;
+  background: #f6f6f6;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 75em) {

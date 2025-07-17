@@ -4,16 +4,29 @@ import proj3 from "../assets/proj3.png";
 import { FaCss3, FaGithub, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
 import projectsData from "../data/projects.json";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiReactquery, SiSupabase } from "react-icons/si";
+import {
+  SiNx,
+  SiReactquery,
+  SiStyledcomponents,
+  SiSupabase,
+} from "react-icons/si";
 import { HiOutlineSwitchHorizontal } from "react-icons/hi";
+import NordicNestFinal from "../assets/NordicNestFinal.mp4";
+import nordicNestPoster from "../assets/nordicNestPoster.png";
+import { BiLogoJavascript, BiLogoTypescript } from "react-icons/bi";
 
 const imageMap = {
   "proj1.png": proj1,
   "proj3.png": proj3,
+  "nordicNestPoster.png": nordicNestPoster,
 };
 
 const iconMap = {
   FaReact: <FaReact />,
+  FaTypescript: <BiLogoTypescript />,
+  FaJavascript: <BiLogoJavascript />,
+  Nx: <SiNx />,
+  StyledCssComponent: <SiStyledcomponents />,
   FaHtml5: <FaHtml5 />,
   FaCss3: <FaCss3 />,
   FaTilwindCss: <RiTailwindCssFill />,
@@ -21,6 +34,10 @@ const iconMap = {
   SiReactquery: <SiReactquery />,
   HiOutlineSwitchHorizontal: <HiOutlineSwitchHorizontal />,
   FaJsSquare: <FaJsSquare />,
+};
+
+const videoMap = {
+  "NordicNestFinal.mp4": NordicNestFinal,
 };
 
 const Project = () => {
@@ -40,11 +57,35 @@ const Project = () => {
               </a>
             </div>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
-              <img
-                className={styles.img}
-                src={imageMap[project.image]}
-                alt={project.title}
-              />
+              <div className={styles.mediaWrapper}>
+                {project.image && (
+                  <img
+                    className={styles.img}
+                    src={imageMap[project.image]}
+                    alt={project.title}
+                  />
+                )}
+                {project.video && (
+                  <video
+                    className={styles.img}
+                    src={videoMap[project.video]}
+                    muted
+                    loop
+                    preload="metadata"
+                    poster={imageMap[project.poster]}
+                    onMouseOver={(e) => {
+                      e.target.src = videoMap[project.video];
+                      e.target.play();
+                    }}
+                    onMouseOut={(e) => {
+                      e.target.pause();
+                      e.target.removeAttribute("src");
+                      e.target.load();
+                    }}
+                    style={{ objectFit: "cover", width: "100%" }}
+                  />
+                )}
+              </div>
             </a>
             <p className={styles.description}>{project.description}</p>
             <div className={styles.techStackIcons}>
